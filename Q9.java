@@ -2,7 +2,7 @@ package baekjoon.chap1;
 
 import java.util.Scanner;
 
-public class Q5 {
+public class Q9 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
@@ -10,5 +10,9 @@ public class Q5 {
 		sc.close();
 		
 		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a%b);
 	}
 }

@@ -2,13 +2,13 @@ package baekjoon.chap1;
 
 import java.util.Scanner;
 
-public class Q5 {
+public class Q8 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
+		double a = sc.nextDouble();
+		double b = sc.nextDouble();
 		sc.close();
 		
-		System.out.println(a+b);
+		System.out.println(a/b);
 	}
 }
